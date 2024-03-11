@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<head>
+<title>Conatct-Page</title>
+<style>
+    body{
+        background-color: lavender;
+        margin: 0;
+    }
+    #h1{
+        text-align: center;
+        margin-top: 50px;
+    }
+    .form{
+        text-align: center;
+        background-color: white;
+        width: 500px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0;
+        border-color: red;
+        padding: 10px;
+    }
+    .head {
+        background-color: darkslateblue;
+        text-align: center;
+        padding: 18px;
+    }
+    .h1{
+        text-align: center;
+        padding-top: 15px;
+    }
+    .one {
+        color: white;
+        padding: 18px;
+        font-size: 25px;
+    }
+    .one:hover{
+        color:lightcoral;
+    }
+    .box{
+        width: 90%;
+        height: 40px;
+        border-top: 0;
+        border-left: 0;
+        border-right: 0;
+        margin-bottom: 20px;
+        outline: none;
+    }
+    .submit{
+        margin-top: 20px;
+        padding:10px;
+        background-color: blue;
+        color: aliceblue;
+        border: 0;
+        cursor: pointer;
+    }
+    .submit:hover{
+        background-color: coral;
+        color: black;
+        
+    }
+</style>
+</head>
+
+<body>
+    <div class="head">
+        <nav>
+            <a class="one" href="index.html"><span>Trips</span></a>
+            <a class="one" href="about.html"><span>About</span></a>
+            <a class="one" href="contact.html"><span>Contact</span></a>
+        </nav>
+    </div>
+    <h1 id="h1">Wanna Come On My Next Trip?Contact Me</h1>
+    <form class="form">
+        <input class="box" type="text" placeholder="Fullname"><br>
+        <input class="box" type="email" placeholder="Email"><br>
+        <input class="box" type="number" placeholder="Contact Number" max="9999999999" ><br>
+        <input class="submit"type="submit" value="Submit">
+    </form>
+</body>
